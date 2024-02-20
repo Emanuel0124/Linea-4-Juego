@@ -1,0 +1,17 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+#Tablero6x6{
+    height: 540px;
+    width: 540px;
+
+    background-color: #14F0B7;
+    border: 10px inset #10B88D ;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
