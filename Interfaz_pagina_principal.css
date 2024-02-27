@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GorApnPGD1dt2PN4Ltpwrxigj-5CKQSxUA&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
+
+
+
+button{
+    
+    background-image: linear-gradient(
+        150deg,
+        #1ab1bf,
+        #136794,
+        #1ab1bf
+    );
+    cursor: pointer;
+    padding: 14px;
+    color: #fff;;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    display: flex;
+    transition: .3s;
+
+    
+}
+
+
+    
+
+
+button:hover span{
+    background: none;
+    color: #bde1eb;
+    
+
+}
+
+button:active{
+    transform: scale(0,0.5);
+
+}
+
+
+
+
+#Titulo{
+    font-family: 'Cerudikan', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: #226eac;
+}
+
+#a4x4{
+    font-family:'Spicy Noodle', sans-serif ;
+    color:#70d4cf;
+}
+
+#a4x4 :hover{
+    
+    color: rgb(25, 21, 21);
+}
+
+#a6x6{
+    font-family: 'Spicy Noodle', sans-serif;
+    color: #70d4cf
+}
+
+#Mensaje{
+    font-family:'Cerudikan', sans-serif ;
+    text-align: right;
+    color: #2110a0;
+    font-size: 25px;
+}

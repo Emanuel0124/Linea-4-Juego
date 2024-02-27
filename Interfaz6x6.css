@@ -1,17 +1,28 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
     text-align: center;
-
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfet_2kEt6YHcGBoktYdjn9XP5vOncSZVCgA&usqp=CAU) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 #Tablero6x6{
     height: 540px;
     width: 540px;
 
-    background-color: #14F0B7;
-    border: 10px inset #10B88D ;
+    background-color: #5787ac;
+    border: 10px inset #326997 ;
+    border-radius: 30px;
 
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+#Encabezado{
+    font-family: 'Cerudikan', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #185d8c;
 }

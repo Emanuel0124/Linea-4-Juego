@@ -1,7 +1,10 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
     text-align: center;
-
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyof_aFZlGqk-t-Sou9uJiQQiKVRk9r-V1qg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
 }
 
 
@@ -9,13 +12,18 @@ body {
     height: 360px;
     width: 360px;
 
-    background-color: #072e79;
-    border: 10px inset #4340ec ;
+    background-color: #29b6dd;
+    border: 10px inset #4f9dc7 ;
+    border-radius: 20px;
 
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-
-HACER DOS BOTONES PARA SEPARAR LOS TABLEROS, OJO
+#Encabezado{
+    font-family: 'Cerudikan', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(61, 131, 206);
+}
